@@ -1,3 +1,9 @@
+h1:hover {
+    font-size: 500%;
+    transition: 
+        font-size 0.6s;
+}
+
 button:hover {
     background-color: #eb937d;
     border: solid 1px #eb937d;
@@ -42,7 +48,7 @@ h4 {
     text-align: center;
 }
 
-main section.imagenyFormulario {
+main section#imagenyFormulario {
     padding-top: 5%;
     background-image: url(./../img/fondocarretera.jpg);
 }
@@ -93,6 +99,7 @@ a {
     text-decoration: none;
     font-weight: bold;
 }
+
 
 @media screen and (min-width: 376px) {
 
