@@ -4,3 +4,132 @@ button:hover {
     transition:
         background-color 0.7s;
 }
+
+* {
+    margin: 0;
+}
+
+body {
+    background-image: url(./../img/fondoAutos.jpg);
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive, sans-serif;
+    font-size: 340%;
+    color: #999;
+    margin: 8%;
+}
+
+img.choque {
+    width: 70%;  
+}
+
+section.botones {
+    text-align: center;
+}
+
+button {
+    border-radius: 50px;
+    background-color: rgb(168, 17, 17);
+    padding: 8px 13px 8px 13px;
+    margin: 5% 3% 10% 0;
+}
+
+button a {
+    font-family: 'Courgette', cursive;
+    font-size: 12px;
+    font-weight: bold;
+    color: #999;
+    text-decoration: none;
+}
+
+main {
+    margin: 6% 1.5% 6% 1.5%;
+}
+
+main section {
+    margin: 4% 0 4% 0;
+    text-align: justify;
+}
+
+main h2, main h4 {
+    font-size: 240%;
+}
+
+main h2, main h4, main p, main ul li {
+    font-family: 'Vollkorn', serif;
+    font-weight: 500;
+    margin: 3% 0 3% 0;
+}
+
+main p a {
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+}
+
+h2, h4, p.formula {
+    text-align: center;
+}
+
+p.formula {
+    font-size: 130%;
+    font-weight: bold;
+}
+
+ul li {
+    list-style-type: disc;
+}
+
+section.energiaCinetica div.video {
+    text-align: center;
+}
+
+section.energiaCinetica div.video video {
+    width: 60%;
+}
+
+@media screen and (min-width: 376px) {
+
+    h1 {
+        font-size: 400%;
+        margin: 2% 0 3% 0;
+    }
+        
+    img.choque {
+        width: 40%;  
+    }
+
+    section.botones {
+        text-align: start;
+    }
+    
+    button {
+        margin: 0 8% 5% 20%;
+    }
+
+    button a {
+        font-size: 20px;
+    }
+
+    main p, main h2, main h4 {
+        margin: 1.5% 0 1.5% 0;
+    }
+
+    h2, h3, p.formula {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    p.formula {
+        font-size: 170%;
+    }
+
+    section.energiaCinetica video {
+        width: 60%;
+    }
+}
