@@ -1,8 +1,35 @@
+h1:hover {
+    font-size: 500%;
+    transition: 
+        font-size 0.6s;
+}
+
+h2:hover, h4:hover {
+    font-size: 300%;
+    transition: 
+        font-size 0.6s;
+}
+
 button:hover {
-    background-color: #eb937d;
-    border: solid 1px #eb937d;
+    background-color: #5e6ace;
+    border: solid 1px #5e6ace;
     transition:
         background-color 0.7s;
+}
+
+a:hover {
+    font-weight: bold;
+    color: #0a0942;
+    transition:
+        color 0.5s;
+}
+
+p.formula:hover {
+    font-size: 220%;
+    color: #0a0942;
+    transition: 
+        font-size 0.6s;
+        color: 0.8s;
 }
 
 * {
@@ -11,6 +38,7 @@ button:hover {
 
 body {
     background-image: url(./../img/fondoAutos.jpg);
+    background-repeat: repeat;
 }
 
 header {
@@ -28,15 +56,28 @@ img.choque {
     width: 70%;  
 }
 
+main {
+    margin: 2% 1.5% 0 1.5%;
+}
+
+main section {
+    margin: 0 0 4% 0;
+    text-align: justify;
+}
+
+
 section.botones {
     text-align: center;
 }
 
 button {
     border-radius: 50px;
-    background-color: rgb(168, 17, 17);
+    background-color: rgb(23, 23, 201);
     padding: 8px 13px 8px 13px;
-    margin: 5% 3% 10% 0;
+}
+
+main section.botones button {
+    margin: 0 0 0 2%;
 }
 
 button a {
@@ -47,17 +88,12 @@ button a {
     text-decoration: none;
 }
 
-main {
-    margin: 6% 1.5% 6% 1.5%;
-}
-
-main section {
-    margin: 4% 0 4% 0;
-    text-align: justify;
-}
-
 main h2, main h4 {
     font-size: 240%;
+}
+
+main p, main ul li {
+    font-size: 110%;
 }
 
 main h2, main h4, main p, main ul li {
@@ -68,7 +104,7 @@ main h2, main h4, main p, main ul li {
 
 main p a {
     font-weight: bold;
-    color: blue;
+    color: rgb(23, 23, 201);
     text-decoration: none;
 }
 
@@ -91,25 +127,32 @@ section.energiaCinetica div.video {
 
 section.energiaCinetica div.video video {
     width: 60%;
+    margin-bottom: 5%;
 }
+
+footer button {
+    margin: 0 3% 4% 34%;
+}
+
 
 @media screen and (min-width: 376px) {
 
     h1 {
         font-size: 400%;
-        margin: 2% 0 3% 0;
+        margin: 2% 0 2% 0;
     }
         
     img.choque {
-        width: 40%;  
+        width: 40%; 
+        margin: 0 0 0 0;
     }
 
     section.botones {
         text-align: start;
     }
-    
-    button {
-        margin: 0 8% 5% 20%;
+
+    main section.botones button {
+        margin: 0 0 0 21%;
     }
 
     button a {
@@ -117,7 +160,7 @@ section.energiaCinetica div.video video {
     }
 
     main p, main h2, main h4 {
-        margin: 1.5% 0 1.5% 0;
+        margin: 0 0 3% 0;
     }
 
     h2, h3, p.formula {
@@ -131,5 +174,9 @@ section.energiaCinetica div.video video {
 
     section.energiaCinetica video {
         width: 60%;
+    }
+
+    footer button {
+        margin: 0 3% 4% 44%;
     }
 }
