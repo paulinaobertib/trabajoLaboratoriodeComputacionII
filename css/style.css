@@ -48,7 +48,7 @@ h4 {
     text-align: center;
 }
 
-main section.imagenyFormulario {
+main section#imagenyFormulario {
     padding-top: 5%;
     background-image: url(./../img/fondocarretera.jpg);
 }
